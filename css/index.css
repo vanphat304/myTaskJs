@@ -1,0 +1,108 @@
+body {
+  background: burlywood;
+}
+
+.content {
+  margin-top: 30px;
+  border-radius: 25px;
+  color: orange;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  background-color: black;
+  padding: 0 20px;
+}
+
+.content__button button {
+  display: none;
+  margin-top: 5px;
+  background-color: transparent;
+  border: 3px solid orange;
+  color: orange;
+  font-size: 20px;
+  border-radius: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.content__button button:hover {
+  background-color: orange;
+  color: #000000;
+}
+
+.content__input {
+  font-size: 25px;
+  width: 450px;
+  background-color: burlywood;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content__input input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: #000000;
+}
+
+.content__input button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px orange solid;
+  outline: none;
+  position: relative;
+  top: 0;
+  /* right: -378px; */
+  right: -5%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.content__input button i {
+  color: orange;
+}
+
+.content__input button:hover {
+  cursor: pointer;
+  background-color: orange;
+  font-size: 32px;
+}
+
+.content__input button:hover i {
+  color: #000000;
+}
+
+.content__detail__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+  border: 3px solid orange;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.content__detail__button button {
+  border-radius: 50px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.content__detail__button button:hover {
+  background-color: orange;
+}
+
+.content img {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */
